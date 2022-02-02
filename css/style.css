@@ -5,12 +5,12 @@
 :root{
     --avatar-border-radius: 50%;
 
-    --badge-online: green;
-    --badge-offline: thistle;
-    --badge-dnd: red;
+    --badge-online:green;
+    --badge-offline:thistle;
+    --badge-dnd:red;
 
-    --active: blue;
-    --white-section: white;
+    --active:blue;
+    --white-section:white;
 }
 
 body{
