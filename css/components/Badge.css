@@ -1,0 +1,44 @@
+@import "../style.css";
+
+.badge{
+    display: inline-block;
+    margin: 1rem;
+    position: relative;
+}
+
+.badge .avatar{
+    border-radius: var(--avatar-border-radius);
+}
+
+.badge div{
+    width: 10px;
+    height: 10px;
+    border-radius: var(--avatar-border-radius);
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    border: 2px solid var(--white-section);
+}
+
+.online{
+    background-color: var(--badge-online);
+}
+
+.offline{
+    background-color: var(--badge-offline);
+}
+
+.dnd{
+    background-color: var(--badge-dnd);
+}
+
+.badge .fas{
+   font-size: 2rem; 
+}
+
+.badge .number{
+    background-color: var(--active);
+    color: var(--white-section);
+    border-radius: var(--avatar-border-radius);
+    position: absolute;
+}

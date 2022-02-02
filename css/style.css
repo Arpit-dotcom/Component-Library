@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --avatar-border-radius: 50%;
+
+    --badge-online: green;
+    --badge-offline: thistle;
+    --badge-dnd: red;
+
+    --active: blue;
+    --white-section: white;
+}
+
+body{
+    font-size: 62.5%;
+}
+
+.sm{
+    width: 3rem;
+    height: 3rem;
+}
