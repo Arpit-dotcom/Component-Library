@@ -1,28 +1,37 @@
-.rounded-avatar,.retina-avatar{
+@import "../style.css";
+
+.avatar{
     display: flex;
     column-gap: 1rem;
     margin-bottom: 1rem;
 }
 
 .sm{
+    border-radius: var(--avatar-border-radius);
     width: 3rem;
     height: 3rem;
 }
 
 .md{
+    border-radius: var(--avatar-border-radius);
     width: 5rem;
     height: 5rem;
 }
 
 .lg{
+    border-radius: var(--avatar-border-radius);
     width: 7rem;
     height: 7rem;
 }
 
-.rounded-avatar{
-    border-radius: 50%;
+.xl{
+    border-radius: var(--avatar-border-radius);
+    width: 9rem;
+    height: 9rem;
 }
 
-.retina-avatar{
-    border-radius: 1rem;
+.xxl{
+    border-radius: var(--avatar-border-radius);
+    width: 11rem;
+    height: 11rem;
 }
