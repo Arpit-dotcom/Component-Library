@@ -4,11 +4,9 @@
 
 :root{
     --avatar-border-radius: 50%;
-
     --badge-online:green;
     --badge-offline:thistle;
     --badge-dnd:red;
-
     --active:blue;
     --white-section:white;
 }
