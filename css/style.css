@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --avatar-primary: blue;
+    --avatar-error: red;
+    --avatar-success: green;
+    --avatar-warning: orange;
+
+    --white-section: white;
+}
+
+body{
+    font-size: 62.5%;
+}

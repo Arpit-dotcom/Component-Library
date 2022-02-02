@@ -1,0 +1,47 @@
+@import "../style.css";
+
+.alert{
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    width: 30rem;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.primary{
+    background-color: var(--avatar-primary);
+    color: var(--white-section);
+}
+
+.error{
+    background-color: var(--avatar-error);
+    color: var(--white-section);
+}
+
+.success{
+    background-color: var(--avatar-success);
+    color: var(--white-section);
+}
+
+.warning{
+    background-color: var(--avatar-warning);
+    color: var(--white-section);
+}
+
+
+.outline-primary{
+    color: var(--avatar-primary);
+}
+
+.outline-error{
+    color: var(--avatar-error);
+}
+
+.outline-success{
+    color: var(--avatar-success);
+}
+
+.outline-warning{
+    color: var(--avatar-warning);
+}
