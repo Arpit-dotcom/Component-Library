@@ -1,0 +1,40 @@
+@import "../style.css";
+
+.avatar{
+    display: inline-block;
+}
+
+.sm{
+    width: 3rem;
+    height: 3rem;
+}
+
+.md{
+    width: 5rem;
+    height: 5rem;
+}
+
+.lg{
+    width: 7rem;
+    height: 7rem;
+}
+
+.xl{
+    width: 9rem;
+    height: 9rem;
+}
+
+.xxl{
+    width: 11rem;
+    height: 11rem;
+}
+
+.round{
+    margin: 10px;
+    border-radius: var(--round-border-radius);
+}
+
+.retina{
+    margin: 10px;
+    border-radius: var(--retina-border-radius);
+}
