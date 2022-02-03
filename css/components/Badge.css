@@ -20,15 +20,15 @@
     border: 2px solid var(--white-section);
 }
 
-.online{
+.badge .online{
     background-color: var(--badge-online);
 }
 
-.offline{
+.badge .offline{
     background-color: var(--badge-offline);
 }
 
-.dnd{
+.badge .dnd{
     background-color: var(--badge-dnd);
 }
 
