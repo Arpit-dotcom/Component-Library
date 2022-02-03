@@ -3,7 +3,7 @@
 }
 
 :root{
-    --alert-warning: orange;
+    --alert-warning:orange;
 
     --round-border-radius: 50%;
     --retina-border-radius: 1rem;
@@ -13,6 +13,8 @@
     --badge-dnd:red;
     --active:blue;
     --white-section:white;
+
+    --default:black;
 }
 
 body{
