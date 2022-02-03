@@ -3,7 +3,8 @@
 }
 
 :root{
-    --avatar-border-radius: 50%;
+    --round-border-radius: 50%;
+    --retina-border-radius: 1rem;
 }
 
 body{
