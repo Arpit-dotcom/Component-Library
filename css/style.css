@@ -3,6 +3,8 @@
 }
 
 :root{
+    --alert-warning: orange;
+
     --round-border-radius: 50%;
     --retina-border-radius: 1rem;
 
