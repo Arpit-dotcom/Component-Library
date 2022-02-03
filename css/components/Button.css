@@ -2,8 +2,8 @@
 
 .btn{
     border: 1px solid;
-    margin: 10px;
-    padding: 10px;
+    margin: .5rem;
+    padding: .5rem;
 }
 
 .btn-primary{
@@ -50,7 +50,7 @@
 
 .btn-link{
     background-color: var(--active);
-    padding: 10px 20px;
+    padding: .5rem 1rem;
     cursor: pointer;
 }
 
