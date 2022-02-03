@@ -3,11 +3,16 @@
 }
 
 :root{
-    --avatar-primary: blue;
-    --avatar-error: red;
-    --avatar-success: green;
-    --avatar-warning: orange;
-    --white-section: white;
+    --alert-warning: orange;
+
+    --round-border-radius: 50%;
+    --retina-border-radius: 1rem;
+
+    --badge-online:green;
+    --badge-offline:thistle;
+    --badge-dnd:red;
+    --active:blue;
+    --white-section:white;
 }
 
 body{

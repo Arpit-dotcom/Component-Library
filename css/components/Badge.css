@@ -1,0 +1,51 @@
+@import "../style.css";
+
+.badge{
+    display: inline-block;
+    margin: 1rem;
+    position: relative;
+}
+
+.badge .avatar{
+    border-radius: var(--round-border-radius);
+}
+
+.badge div{
+    width: 15px;
+    height: 15px;
+    border-radius: var(--round-border-radius);
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    border: 2px solid var(--white-section);
+}
+
+.online{
+    background-color: var(--badge-online);
+}
+
+.offline{
+    background-color: var(--badge-offline);
+}
+
+.dnd{
+    background-color: var(--badge-dnd);
+}
+
+.md{
+    width: 5rem;
+    height: 5rem;
+}
+
+.badge .fas{
+   font-size: 2rem; 
+}
+
+.badge .number{
+    padding: 2px;
+    background-color: var(--active);
+    color: var(--white-section);
+    border-radius: var(--round-border-radius);
+    position: absolute;
+    top: -5px;
+}

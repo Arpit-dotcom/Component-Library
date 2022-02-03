@@ -10,38 +10,38 @@
 }
 
 .primary{
-    background-color: var(--avatar-primary);
+    background-color: var(--active);
     color: var(--white-section);
 }
 
 .error{
-    background-color: var(--avatar-error);
+    background-color: var(--badge-dnd);
     color: var(--white-section);
 }
 
 .success{
-    background-color: var(--avatar-success);
+    background-color: var(--badge-online);
     color: var(--white-section);
 }
 
 .warning{
-    background-color: var(--avatar-warning);
+    background-color: var(--alert-warning);
     color: var(--white-section);
 }
 
 
 .outline-primary{
-    color: var(--avatar-primary);
+    color: var(--active);
 }
 
 .outline-error{
-    color: var(--avatar-error);
+    color: var(--badge-dnd);
 }
 
 .outline-success{
-    color: var(--avatar-success);
+    color: var(--badge-online);
 }
 
 .outline-warning{
-    color: var(--avatar-warning);
+    color: var(--alert-warning);
 }
