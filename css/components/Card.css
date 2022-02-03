@@ -1,0 +1,78 @@
+@import "../style.css";
+
+/* Card with Badge */
+.badge, .dismiss, .text-overlay, .text, .horizontal, .shadow{
+    display: inline-block;
+    position: relative;
+    width: 15vw;
+    height: 45vh;
+    border: 1px solid var(--badge-offline);
+    background-color: var(--badge-offline);
+    border-radius: 1rem;
+    margin: .5rem;
+}
+
+.badge .far, .dismiss .far, .text-overlay .far, .text .far, .horizontal .far, .shadow .far{
+    position: absolute;
+    font-size: 1rem;
+    top: 9px;
+    right: 9px;
+}
+
+.badge-header, .dismiss-header, .text-overlay-header, .text-header, .horizontal-header, .shadow-header{
+    padding: 0 5px;
+    color: var(--default);
+    font-weight: bolder;
+}
+
+.badge-img, .dismiss-img, .text-overlay-img, .text-img, .horizontal-img, .shadow-img{
+    width: 100%;
+    height: 35%;
+}
+
+.badge-text, .dismiss-text, .text-overlay-text, .text-text, .horizontal-text, .shadow-text{
+    padding: 0 2px;
+}
+
+.badge-footer, .dismiss-footer, .text-overlay-footer, .text-footer, .horizontal-footer, .shadow-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    background-color: var(--badge-offline);
+    border: none;
+
+}
+
+.primary a,.secondary a{
+    text-decoration: none;
+    color: var(--default);
+}
+
+.icon{
+    align-self: flex-end;
+    font-size: 1rem;
+    margin: 0 5px;
+    color: var(--default);
+}
+
+.fa-heart:hover{
+    color: var(--badge-dnd);
+}
+
+.fa-shopping-cart:hover{
+    color: var(--badge-online);
+}
+
+/* Card with dismiss */
+.dismiss .far{
+    display: none;
+}
+
+/* Card with text overlay */
+
+.text-overlay-header{
+    position: absolute;
+    color: var(--white-section);
+}
