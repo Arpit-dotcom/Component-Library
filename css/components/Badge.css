@@ -7,28 +7,33 @@
 }
 
 .badge .avatar{
-    border-radius: var(--avatar-border-radius);
+    border-radius: var(--round-border-radius);
 }
 
 .badge div{
-    width: 10px;
-    height: 10px;
-    border-radius: var(--avatar-border-radius);
+    width: 15px;
+    height: 15px;
+    border-radius: var(--round-border-radius);
     position: absolute;
     bottom: 5px;
     right: 5px;
     border: 2px solid var(--white-section);
 }
 
-.online{
+.md{
+    width: 5rem;
+    height: 5rem;
+}
+
+.badge .online{
     background-color: var(--badge-online);
 }
 
-.offline{
+.badge .offline{
     background-color: var(--badge-offline);
 }
 
-.dnd{
+.badge .dnd{
     background-color: var(--badge-dnd);
 }
 
@@ -37,8 +42,10 @@
 }
 
 .badge .number{
+    padding: 4px;
     background-color: var(--active);
     color: var(--white-section);
-    border-radius: var(--avatar-border-radius);
+    border-radius: var(--round-border-radius);
     position: absolute;
+    top: -10px;
 }
