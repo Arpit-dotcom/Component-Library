@@ -4,6 +4,8 @@
 
 :root{
     --round-border-radius: 50%;
+    --retina-border-radius: 1rem;
+
     --badge-online:green;
     --badge-offline:thistle;
     --badge-dnd:red;
