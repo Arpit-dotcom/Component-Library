@@ -1,0 +1,43 @@
+@import "../style.css";
+
+.image-round, .image-retina{
+    margin: 1rem;
+}
+
+.size-xl{
+    width: 13rem;
+    height: 13rem;
+    margin: 1rem;
+}
+
+.round{
+    border-radius: var(--round-border-radius);
+}
+
+.retina{
+    border-radius: var(--retina-border radius);
+}
+
+@media screen and (max-width: 480px){
+    .size-xl{
+        width: 7rem;
+        height: 7rem;
+        margin: 1rem;
+    }    
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .size-xl{
+        width: 9rem;
+        height: 9rem;
+        margin: 1.5rem;
+    }    
+}
+
+@media screen and (min-width: 768px){
+    .size-xl{
+        width: 13rem;
+        height: 13rem;
+        margin: 3rem;
+    }    
+}
