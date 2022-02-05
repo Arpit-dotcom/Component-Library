@@ -13,6 +13,12 @@
     border-radius: var(--retina-border-radius);
 }
 
+.img-size{
+    width: 13rem;
+    height: 13rem;
+    margin: 2rem;
+} 
+
 @media screen and (max-width: 480px){
     .img-size{
         width: 7rem;
@@ -26,13 +32,5 @@
         width: 10rem;
         height: 10rem;
         margin: 1.5rem;
-    }    
-}
-
-@media screen and (min-width: 768px){
-    .img-size{
-        width: 13rem;
-        height: 13rem;
-        margin: 2rem;
     }    
 }
