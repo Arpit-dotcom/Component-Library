@@ -1,62 +1,53 @@
 @import "../style.css";
 
-body{
+.container{
     display: flex;
     flex-wrap: wrap;
 }
 
-/* Card with Badge */
-.badge, .dismiss, .text-overlay, .text, .horizontal, .shadow{
+.card{
     display: flex;
     flex-direction: column;
     position: relative;
     width: 200px;
-    height: 270px;
+    height: 250px;
     border: 1px solid var(--badge-offline);
     background-color: var(--badge-offline);
     border-radius: 1rem;
     margin: .5rem;
 }
 
-.badge .far, .dismiss .far, .text-overlay .far, .text .far, .horizontal .far, .shadow .far{
-    position: absolute;
-    font-size: 1rem;
-    top: 9px;
-    right: 9px;
-}
-
-.badge-header, .dismiss-header, .text-overlay-header, .text-header, .horizontal-header, .shadow-header{
+.header{
     padding: 0 5px;
     color: var(--default);
     font-weight: bolder;
 }
 
-.badge-img, .dismiss-img, .text-overlay-img, .text-img, .horizontal-img, .shadow-img{
+.img{
     width: 100%;
-    height: 35%;
+    height: 6rem;
 }
 
-.badge-text, .dismiss-text, .text-overlay-text, .text-text, .horizontal-text, .shadow-text{
-    padding: 0 2px;
+.text{
+    padding: 0 10px;
 }
 
-.badge-footer, .dismiss-footer, .text-overlay-footer, .text-footer, .horizontal-footer, .shadow-footer{
+.footer{
     display: flex;
     justify-content: space-around;
 }
 
-.btn{
+.footer .btn{
     background-color: var(--badge-offline);
     border: none;
-
 }
 
-.primary a,.secondary a{
+.btn .primary, .btn .secondary{
     text-decoration: none;
     color: var(--default);
 }
 
-.primary a:hover,.secondary a:hover{
+.btn .primary:hover, .btn .secondary:hover{
     color: var(--alert-warning);
 }
 
@@ -67,88 +58,99 @@ body{
     color: var(--default);
 }
 
-.fa-heart:hover{
+.icon .fa-heart:hover{
     color: var(--badge-dnd);
 }
 
-.fa-shopping-cart:hover{
+.icon .fa-shopping-cart:hover{
     color: var(--badge-online);
 }
 
+/* Card with badge */
+
+.badge-card .badge{
+    color: var(--default);
+    position: absolute;
+    font-size: 1rem;
+    top: 9px;
+    right: 9px;
+}
+
 /* Card with dismiss */
-.dismiss .far{
+
+.dismiss .badge{
     display: none;
 }
 
 /* Card with text overlay */
 
-.text-overlay .far{
-    position: absolute;
-    color: var(--white-section);
+.text-overlay .badge{
+    display: none;
 }
 
-.text-overlay-header h2{
+.text-overlay .header .brand{
     position: absolute;
     top: 6rem;
     color: var(--white-section);
 }
 
-.text-overlay-header h3{
+.text-overlay .header .price{
     position: absolute;
     top: 7.5rem;
     color: var(--white-section);
 }
 
-.text-overlay-img{
+.text-overlay .img{
     height: 60%;
+    margin-bottom: 5px;
     border-radius: 1rem 1rem 0 0;
 }
 
 /* Text only card */
 
-.text{
-    height: 150px;
+.only-text{
+    height: 160px;
 }
 
-.text-img{
+.only-text .header{
+    text-align: center;
+}
+
+.only-text .img{
     display: none;
 }
 
 /* Horizontal Card */
 
 .horizontal{
-    height: 150px;
+    height: 160px;
 }
 
-.horizontal-div{
-    height: 60%;
+.horizontal .container1{
+    height: 40%;
     display: flex;
 }
 
-.horizontal .far{
-    display: none;
-}
-
-.horizontal-header{
+.horizontal .header{
     order: 2;
 }
 
-.horizontal-header h2, .horizontal-header h3{
+.horizontal-header .price{
     width: 50%;
 }
 
-.horizontal-img{
+.horizontal .img{
     width: 50%;
     height: 100%;
     border-radius: 1rem 0 0 0;
     order: 1;
 }
 
-.horizontal-text{
+.horizontal .text{
     order: 3;
 }
 
-.horizontal-footer{
+.horizontal .footer{
     order: 4;
 }
 
