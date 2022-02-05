@@ -68,7 +68,7 @@
 
 /* Card with badge */
 
-.badge .badge{
+.badge-card .badge{
     color: var(--default);
     position: absolute;
     font-size: 1rem;
