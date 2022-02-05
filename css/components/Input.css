@@ -1,31 +1,27 @@
 @import "../style.css";
 
-body{
-    background-color: var(--badge-offline);
-}
-
-.input-form{
-    background-color: var(--white-section);
+.container{
+    background-color: var(--alert-warning);
     width: max-content;
     padding: 1rem;
 }
 
-.input-name,.input-password,.input-submit{
+.name, .password, .submit{
     margin: 1rem;
 }
 
-.input-submit{
+.submit{
     text-align: center;
 }
 
-.input-name label,.input-password label,.input-submit label{
+.label{
     padding: 10px;
     font-size: 1rem;
     color: var(--active);
     font-weight: bolder;
 }
 
-.input-name .input,.input-password .input,.input-submit .input{
+.input{
     padding: 10px;
     border-radius: var(--retina-border-radius);
     border: 2px solid var(--active);
@@ -33,7 +29,7 @@ body{
     font-weight: bolder;
 }
 
-.input-submit .input{
+.submit .input{
     cursor: pointer;
     background-color: var(--active);
     border: 1px solid var(--active);
