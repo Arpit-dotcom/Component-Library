@@ -1,0 +1,36 @@
+@import "../style.css";
+
+.image-container{
+    background-color: var(--badge-offline);
+    width: max-content;
+}
+
+.round .img-size{
+    border-radius: var(--round-border-radius);
+}
+
+.retina .img-size{
+    border-radius: var(--retina-border-radius);
+}
+
+.img-size{
+    width: 13rem;
+    height: 13rem;
+    margin: 2rem;
+} 
+
+@media screen and (max-width: 480px){
+    .img-size{
+        width: 7rem;
+        height: 7rem;
+        margin: 1rem;
+    }    
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .img-size{
+        width: 10rem;
+        height: 10rem;
+        margin: 1.5rem;
+    }    
+}
