@@ -5,7 +5,7 @@
     flex-wrap: wrap;
 }
 
-.badge-card, .dismiss-card, .text-overlay-card, .text-card, .horizontal-card, .shadow-card{
+.card{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -25,11 +25,11 @@
 
 .img{
     width: 100%;
-    height: 35%;
+    height: 6rem;
 }
 
 .text{
-    padding: 9px 5px;
+    padding: 0 10px;
 }
 
 .footer{
@@ -68,7 +68,7 @@
 
 /* Card with badge */
 
-.badge{
+.badge .badge{
     color: var(--default);
     position: absolute;
     font-size: 1rem;
@@ -78,29 +78,29 @@
 
 /* Card with dismiss */
 
-.dismiss-card .badge{
+.dismiss .badge{
     display: none;
 }
 
 /* Card with text overlay */
 
-.text-overlay-card .badge{
+.text-overlay .badge{
     display: none;
 }
 
-.text-overlay-card .header .brand{
+.text-overlay .header .brand{
     position: absolute;
     top: 6rem;
     color: var(--white-section);
 }
 
-.text-overlay-card .header .price{
+.text-overlay .header .price{
     position: absolute;
     top: 7.5rem;
     color: var(--white-section);
 }
 
-.text-overlay-card .img{
+.text-overlay .img{
     height: 60%;
     margin-bottom: 5px;
     border-radius: 1rem 1rem 0 0;
@@ -108,30 +108,30 @@
 
 /* Text only card */
 
-.text-card {
+.only-text{
     height: 160px;
 }
 
-.text-card .header{
+.only-text .header{
     text-align: center;
 }
 
-.text-card .img{
+.only-text .img{
     display: none;
 }
 
 /* Horizontal Card */
 
-.horizontal-card{
+.horizontal{
     height: 160px;
 }
 
-.horizontal-card .container1{
+.horizontal .container1{
     height: 40%;
     display: flex;
 }
 
-.horizontal-card .header{
+.horizontal .header{
     order: 2;
 }
 
@@ -139,23 +139,23 @@
     width: 50%;
 }
 
-.horizontal-card .img{
+.horizontal .img{
     width: 50%;
     height: 100%;
     border-radius: 1rem 0 0 0;
     order: 1;
 }
 
-.horizontal-card .text{
+.horizontal .text{
     order: 3;
 }
 
-.horizontal-card .footer{
+.horizontal .footer{
     order: 4;
 }
 
 /* Card with shadow */
 
-.shadow-card{
+.shadow{
     box-shadow: 15px 15px 10px;
 }
