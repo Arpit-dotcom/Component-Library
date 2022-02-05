@@ -1,0 +1,38 @@
+@import "../style.css";
+
+.container{
+    background-color: var(--alert-warning);
+    width: max-content;
+    padding: 1rem;
+}
+
+.name, .password, .submit{
+    margin: 1rem;
+}
+
+.submit{
+    text-align: center;
+}
+
+.label{
+    padding: 10px;
+    font-size: 1rem;
+    color: var(--active);
+    font-weight: bolder;
+}
+
+.input{
+    padding: 10px;
+    border-radius: var(--retina-border-radius);
+    border: 2px solid var(--active);
+    color: var(--active);
+    font-weight: bolder;
+}
+
+.submit .input{
+    cursor: pointer;
+    background-color: var(--active);
+    border: 1px solid var(--active);
+    border-radius: var(--retina-border-radius);
+    color: var(--white-section);
+}
