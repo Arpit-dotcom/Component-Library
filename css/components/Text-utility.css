@@ -2,6 +2,18 @@
 
 .text-utility{
     width: 40rem;
+    background-color: var(--alert-warning);
+}
+
+/* Heading */
+.heading{
+    text-align: center;
+}
+
+/* Text-size */
+.text-size{
+    text-align: center;
+}
     padding: 1rem;
     background-color: var(--alert-warning);
     font-size: 1rem;
@@ -22,6 +34,9 @@
 }
 
 /* Text-color */
+.text-color{
+    text-align: center;
+}
 
 .text-gray{
     font-size: 1rem;
