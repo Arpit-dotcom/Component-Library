@@ -1,0 +1,18 @@
+@import "../style.css";
+
+.toast{
+    margin: 1rem;
+    font-size: 1rem;
+    background-color: var(--badge-offline);
+    width: 30rem;
+    padding: 1rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content{
+    margin: .5rem;
+}
