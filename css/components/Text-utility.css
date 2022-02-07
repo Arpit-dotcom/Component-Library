@@ -1,3 +1,47 @@
 @import "../style.css";
 
+.text-utility{
+    width: 40rem;
+    padding: 1rem;
+    background-color: var(--alert-warning);
+    font-size: 1rem;
+}
 
+/* Text-size */
+
+.text-small{
+    font-size: small;
+}
+
+.text-medium{
+    font-size: medium;
+}
+
+.text-large{
+    font-size: large;
+}
+
+/* Text-color */
+
+.text-gray{
+    font-size: 1rem;
+    color: var(--badge-offline);
+}
+
+.text-blue{
+    font-size: 1rem;
+    color: var(--active);
+}
+
+/* Text-align */
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
