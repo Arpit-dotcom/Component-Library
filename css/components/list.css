@@ -1,0 +1,23 @@
+@import "../style.css";
+
+/* Normal list */
+.normal-list{
+    font-size: 1rem;
+}
+
+/* Stacked list */
+.stacked-list{
+    padding-left: 0px;
+    background-color: var(--active);
+    color: var(--white-section);
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid var(--default);
+    width: 10rem;
+}
+
+.stacked-list .list-item{
+    padding: 1rem;
+    border-bottom: 1px solid var(--default);
+    list-style: none;
+}
