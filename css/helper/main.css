@@ -6,7 +6,9 @@
     padding: 1rem;
     display: flex;
     justify-content: space-between;
+    box-shadow: 5px 5px 5px var(--badge-offline);
 }
+
 .nav-img{
     display: inline-block;
     width: 12rem;
@@ -42,6 +44,7 @@
 
 .container-img{
     width: 50%;
+    box-shadow: 5px 5px 5px var(--badge-offline);
 }
 
 .sub-container{
@@ -83,6 +86,7 @@
     font-size: 1rem;
     font-weight: bolder;
     color: var(--white-section);
+    box-shadow: 5px 5px 5px var(--badge-offline);
 }
 
 .link-btn .link-primary:hover{
@@ -95,6 +99,7 @@
     font-size: 1rem;
     font-weight: bolder;
     color: var(--badge-online);
+    box-shadow: 5px 5px 5px var(--badge-offline);
 }
 
 .link-btn .link-secondary:hover{
