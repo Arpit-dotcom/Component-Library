@@ -44,6 +44,7 @@
 
 .container-img{
     width: 50%;
+    border-radius: var(--retina-border-radius);
     box-shadow: 5px 5px 5px var(--badge-offline);
 }
 
