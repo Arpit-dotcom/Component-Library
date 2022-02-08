@@ -13,6 +13,10 @@
     justify-content: space-between;
 }
 
+.title .fa-times{
+    font-size: 2rem;
+}
+
 .content{
     padding: 1rem;
 }
