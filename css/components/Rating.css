@@ -1,0 +1,10 @@
+@import "../style.css";
+
+.rating{
+    margin: 1rem;
+}
+
+.fa-star{
+    font-size: 1rem;
+    color: var(--rating);
+}
