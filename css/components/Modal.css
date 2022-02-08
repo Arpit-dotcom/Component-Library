@@ -1,0 +1,43 @@
+@import "../style.css";
+
+.modal{
+    background-color: var(--badge-offline);
+    width: 20rem;
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.title{
+    padding: .5rem;
+    justify-content: space-between;
+}
+
+.title .fa-times{
+    font-size: 2rem;
+}
+
+.content{
+    padding: 1rem;
+}
+
+.btn{
+    justify-content: flex-end;
+    gap: .5rem;
+    padding: .5rem;
+}
+
+.primary{
+    padding: .5rem;
+    color: var(--white-section);
+    background-color: var(--alert-warning);
+    border: none;
+    border-radius: 5px;
+}
+
+.secondary{
+    padding: .5rem;
+    color: var(--white-section);
+    background-color: var(--active);
+    border: none;
+    border-radius: 5px;
+}
