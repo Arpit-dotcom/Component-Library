@@ -9,7 +9,6 @@
 
 .title{
     padding: .5rem;
-    display: flex;
     justify-content: space-between;
 }
 
@@ -22,7 +21,6 @@
 }
 
 .btn{
-    display: flex;
     justify-content: flex-end;
     gap: .5rem;
     padding: .5rem;
