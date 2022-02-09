@@ -1,0 +1,65 @@
+@import "/css/helper/main.css";
+@import "/css/style.css";
+@import "/css/components/Avatar.css";
+
+.navigation .primary{
+    font-weight: normal;
+}
+
+.navigation .secondary{
+    font-weight: bolder;
+}
+
+.container{
+    flex-direction: row;
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+    height: max-content;
+}
+
+.drawer{
+    flex-direction: column;
+    padding: .5rem;
+    text-align: center;
+    width: 20%;
+    box-shadow: 5px 5px 5px var(--badge-offline);
+}
+
+.drawer .list{
+    flex-direction: column;
+}
+
+.drawer .list-item{
+    padding: .5rem;
+}
+
+.list-item .link{
+    text-decoration: none;
+    color: var(--default);
+}
+
+.main-content{
+    font-size: 1rem;
+    width: 80%;
+    padding: 2rem;
+}
+
+.order-list{
+    padding: 1rem;
+}
+
+.avatar{
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+.round-avatar, .retina-avatar{
+    border: 1px solid var(--badge-offline);
+}
+
+.code-snippet{
+    overflow-x: auto;
+    overflow-y: auto;
+}
