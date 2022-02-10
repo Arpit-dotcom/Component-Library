@@ -1,47 +1,46 @@
 @import "../style.css";
 
-.alert{
-    border: 1px solid;
-    padding: 10px;
-    margin: 10px;
-    width: 30rem;
-    font-size: 1rem;
-    border-radius: 5px;
+.alert {
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px;
+  width: 30rem;
+  font-size: 1rem;
+  border-radius: 5px;
 }
 
-.primary{
-    background-color: var(--active);
-    color: var(--white-section);
+.alert .primary {
+  background-color: var(--active);
+  color: var(--white-section);
 }
 
-.error{
-    background-color: var(--badge-dnd);
-    color: var(--white-section);
+.error {
+  background-color: var(--badge-dnd);
+  color: var(--white-section);
 }
 
-.success{
-    background-color: var(--badge-online);
-    color: var(--white-section);
+.success {
+  background-color: var(--badge-online);
+  color: var(--white-section);
 }
 
-.warning{
-    background-color: var(--alert-warning);
-    color: var(--white-section);
+.warning {
+  background-color: var(--alert-warning);
+  color: var(--white-section);
 }
 
-
-.outline-primary{
-    color: var(--active);
+.outline-primary {
+  color: var(--active);
 }
 
-.outline-error{
-    color: var(--badge-dnd);
+.outline-error {
+  color: var(--badge-dnd);
 }
 
-.outline-success{
-    color: var(--badge-online);
+.outline-success {
+  color: var(--badge-online);
 }
 
-.outline-warning{
-    color: var(--alert-warning);
+.outline-warning {
+  color: var(--alert-warning);
 }

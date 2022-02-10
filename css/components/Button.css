@@ -28,26 +28,6 @@
     color: var(--white-section);
 }
 
-.outline-primary{
-    color: var(--badge-online);
-    background-color: var(--white-section);
-}
-
-.outline-secondary{
-    color: var(--default);
-    background-color: var(--white-section);
-}
-
-.outline-success{
-    color: var(--alert-warning);
-    background-color: var(--white-section);
-}
-
-.outline-danger{
-    color: var(--badge-dnd);
-    background-color: var(--white-section);
-}
-
 .btn-link{
     background-color: var(--active);
     padding: .5rem 1rem;
@@ -62,4 +42,10 @@
 .btn-img{
     background-color: var(--active);
     color: var(--white-section);
+}
+
+.btn-float{
+    background-color: var(--active);
+    color: var(--white-section);
+    border-radius: var(--round-border-radius);
 }
