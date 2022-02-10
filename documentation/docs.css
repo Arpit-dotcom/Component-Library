@@ -5,6 +5,8 @@
 @import "/css/components/Badge.css";
 @import "/css/components/Button.css";
 @import "/css/components/Card.css";
+@import "/css/components/Image.css";
+@import "/css/components/Input.css";
 @import "/css/components/Text-utility.css";
 @import "/css/components/list.css";
 @import "/css/components/Navigation.css";
@@ -30,7 +32,6 @@
 }
 
 .drawer {
-  background-color: red;
   flex-direction: column;
   padding: 0.5rem;
   text-align: center;
@@ -52,7 +53,6 @@
 }
 
 .main-content {
-  background-color: blue;
   font-size: 1rem;
   width: 80%;
   padding: 2rem;
@@ -120,3 +120,4 @@
 .modal .btn {
   border: none;
 }
+

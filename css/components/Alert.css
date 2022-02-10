@@ -9,7 +9,7 @@
   border-radius: 5px;
 }
 
-.alert .primary {
+.prim {
   background-color: var(--active);
   color: var(--white-section);
 }

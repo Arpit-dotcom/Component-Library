@@ -8,11 +8,11 @@
     padding: 1rem;
 }
 
-.header{
+.toast .header{
     display: flex;
     justify-content: space-between;
 }
 
-.main-content{
+.toast .main-content{
     margin: .5rem;
 }

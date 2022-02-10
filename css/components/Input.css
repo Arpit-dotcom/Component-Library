@@ -1,6 +1,6 @@
 @import "../style.css";
 
-.container{
+.input-container{
     background-color: var(--alert-warning);
     width: max-content;
     padding: 1rem;
