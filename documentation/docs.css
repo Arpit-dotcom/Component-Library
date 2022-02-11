@@ -15,6 +15,7 @@
 @import "/css/components/Toast.css";
 @import "/css/components/Grid.css";
 
+/* Header */
 .navigation .primary {
   font-weight: normal;
 }
@@ -23,6 +24,7 @@
   font-weight: bolder;
 }
 
+/* Container */
 .container {
   flex-direction: row;
   margin: 0;
@@ -31,6 +33,7 @@
   height: max-content;
 }
 
+/* Sidebar */
 .drawer {
   flex-direction: column;
   padding: 0.5rem;
@@ -52,6 +55,7 @@
   color: var(--default);
 }
 
+/* Main Content */
 .main-content {
   font-size: 1rem;
   width: 80%;
@@ -69,12 +73,28 @@
 }
 
 .border {
-  padding: 0 3rem;
+  padding: 0.5rem 0.5rem;
+  width: 70rem;
+  text-align: center;
   border: 1px solid var(--badge-offline);
 }
 
 .align .border {
   width: 70rem;
+}
+
+.card{
+  margin: auto;
+}
+
+.text-overlay .header .brand {
+  position: absolute;
+  top: 8rem;
+}
+
+.text-overlay .header .price {
+  position: absolute;
+  top: 9.5rem;
 }
 
 .normal-list .list-item,
@@ -83,6 +103,7 @@
 }
 
 .stacked-list {
+  margin: auto;
   text-align: center;
   border: 1px solid var(--default);
   width: 10rem;
@@ -117,7 +138,27 @@
   color: var(--default);
 }
 
+.modal,
+.toast {
+  margin: auto;
+}
+
 .modal .btn {
   border: none;
 }
 
+.center-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-2,
+.grid-3 {
+  margin: auto;
+}
+
+/* Footer */
+.footer {
+  display: block;
+}

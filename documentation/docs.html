@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="/css/font-awesome/css/all.css" />
   </head>
   <body>
-    <header>
+    <header class="docs-header">
       <nav class="navigation">
         <img class="nav-img" src="/assets/logo/logo.png" alt="logo-image" />
 
         <ul class="nav-list">
-          <a class="list-item primary" href="#">Home</a>
-          <a class="list-item secondary" href="#">Docs</a>
+          <a class="list-item primary" href="/index.html" target="_blank">Home</a>
+          <a class="list-item secondary" href="">Docs</a>
         </ul>
       </nav>
     </header>
@@ -70,6 +70,7 @@
       </aside>
 
       <main class="main-content">
+
         <!-- Avatar -->
 
         <section id="avatar">
@@ -223,20 +224,22 @@
           <br /><br />
           <section class="flex">
             <div class="border">
-              <div class="alert prim">
-                <strong>Primary!</strong> This is a Primary Alert - Check it
+              <div class="center-items">
+                <div class="alert prim">
+                  <strong>Primary!</strong> This is a Primary Alert - Check it
                 now!
-              </div>
-              <div class="alert error">
-                <strong>Error!</strong> This is an Error Alert - Check it now!
-              </div>
-              <div class="alert success">
-                <strong>Success!</strong> This is a Success Alert - Check it
+                </div>
+                <div class="alert error">
+                  <strong>Error!</strong> This is an Error Alert - Check it now!
+                </div>
+                <div class="alert success">
+                  <strong>Success!</strong> This is a Success Alert - Check it
                 now!
-              </div>
-              <div class="alert warning">
-                <strong>Warning!</strong> This is a Warning Alert - Check it
+                </div>
+                <div class="alert warning">
+                  <strong>Warning!</strong> This is a Warning Alert - Check it
                 now!
+                </div>
               </div>
             </div>
           </section>
@@ -260,6 +263,7 @@
           <br /><br />
           <section class="flex">
             <div class="border">
+              <div class="center-items">
               <div class="alert outline-primary">
                 <strong>Primary!</strong> This is a Primary Alert - Check it
                 now!
@@ -276,6 +280,7 @@
                 now!
               </div>
             </div>
+          </div>
           </section>
           <br /><br />
           <iframe
@@ -496,6 +501,296 @@
         <br /><br />
         <iframe
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=49px&dsblur=62px&wc=true&wa=true&pv=25px&ph=38px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-float%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+          style="
+            width: 880px;
+            height: 322px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+        <br /><br />
+        </section>
+        <br /><br />
+        <hr />
+        <br /><br />
+
+        <!-- Card -->
+
+          <section id="card">
+          <h1 class="title font-2x">
+            <strong><u>Card</u></strong>
+          </h1>
+          <br />
+          <p>
+            Cards can be usd as a container for containing multiple informations. It can contain headers, images, text and footers, background colors.
+          </p>
+          <br />
+          <h2>Example of Card</h2>
+          <br />
+
+          <!-- Card With Badge -->
+          <p class="font-1_5x">-Card with Badge</p>
+          <br /><br />
+          <section class="flex">
+            <div class="border">
+              <section class="card badge-card">
+                <section class="header">
+                  <h2 class="header brand"><u>Allen Solly</u></h2><br>
+                  <h3 class="header price"><u>₹1499</u></h3><br>
+                  <span class="badge"><i class="far fa-times-circle"></i></span>
+                </section>
+
+                <img class="img" src="/assets/images/card.jpeg" alt="card-image">
+                <br>
+
+                <p class="text"><strong>ALLEN SOLLY</strong> Stripes Cotton Linen Blend Regular Fit Mens Casual Shirt - White</p>
+
+                <section class="card-footer">
+                  <div class="btn">
+                    <button class="btn primary">Buy<ebutton>
+                    <button class="btn secondary">Share</button>
+                  </div>
+
+                  <div class="icon">
+                    <a class="icon favourite" href="#"><i class="fas fa-heart"></i></a>
+                    <a class="icon cart" href="#"><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </section>
+              </section>
+          </div>
+          </section>
+          <br /><br />
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=49px&dsblur=62px&wc=true&wa=true&pv=25px&ph=38px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522card%2520badge-card%2522%253E%250A%2520%2520%2520%2520%253Csection%2520class%253D%2522header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522header%2520brand%2522%253E%253Cu%253EAllen%2520Solly%253C%252Fu%253E%253C%252Fh2%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522header%2520price%2522%253E%253Cu%253E%25E2%2582%25B91499%253C%252Fu%253E%253C%252Fh3%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2522%253E%253Ci%2520class%253D%2522far%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fsection%253E%250A%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522%252Fassets%252Fimages%252Fcard.jpeg%2522%2520alt%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%253Cbr%253E%250A%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2522%253E%253Cstrong%253EALLEN%2520SOLLY%253C%252Fstrong%253E%2520Stripes%2520Cotton%2520Linen%2520Blend%2520Regular%2520Fit%2520Mens%2520Casual%2520Shirt%2520-%2520%2520%2520%2520%2520%2520%2520White%253C%252Fp%253E%250A%250A%2520%2520%2520%2520%253Csection%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary%2522%253EBuy%253Cebutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary%2522%253EShare%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522icon%2520favourite%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522icon%2520cart%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%253C%252Fsection%253E"
+            style="
+              width: 880px;
+              height: 322px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <br /><br />
+
+          <!-- Card with Dismiss -->
+          <p class="font-1_5x">-Card with Dismiss</p>
+          <br /><br />
+          <section class="flex">
+            <div class="border">
+              <section class="card dismiss">
+                <section class="header">
+                  <h2 class="brand"><u>Allen Solly</u></h2><br>
+                  <h3 class="price"><u>₹1499</u></h3><br>
+                  <span class="badge"><i class="far fa-times-circle"></i></span>
+                </section>
+
+                <img class="img" src="/assets/images/card.jpeg" alt=""><br>
+
+                <p class="text"><strong>ALLEN SOLLY</strong> Stripes Cotton Linen Blend Regular Fit Mens Casual Shirt - White</p><br>
+
+                <section class="card-footer">
+                  <div class="btn">
+                    <button class="btn primary">Buy</button>
+                    <button class="btn secondary">Share</button>
+                  </div>
+
+                  <div class="icon">
+                    <a class="icon favourite" href="#"><i class="fas fa-heart"></i></a>
+                    <a class="icon cart" href="#"><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </section>
+              </section>
+            </div>
+          </section>
+          <br /><br />
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=49px&dsblur=62px&wc=true&wa=true&pv=25px&ph=38px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522card%2520dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522brand%2522%253E%253Cu%253EAllen%2520Solly%253C%252Fu%253E%253C%252Fh2%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522price%2522%253E%253Cu%253E%25E2%2582%25B91499%253C%252Fu%253E%253C%252Fh3%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2522%253E%253Ci%2520class%253D%2522far%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522%252Fassets%252Fimages%252Fcard.jpeg%2522%2520alt%253D%2522%2522%253E%253Cbr%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2522%253E%253Cstrong%253EALLEN%2520SOLLY%253C%252Fstrong%253E%2520Stripes%2520Cotton%2520Linen%2520Blend%2520Regular%2520Fit%2520Mens%2520Casual%2520Shirt%2520-%2520White%253C%252Fp%253E%253Cbr%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary%2522%253EShare%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522icon%2520favourite%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522icon%2520cart%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%253C%252Fsection%253E"
+            style="
+              width: 880px;
+              height: 322px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <br /><br />
+
+          <!-- Card with text overlay -->
+          <p class="font-1_5x">-Card with text overlay</p>
+          <br /><br />
+          <section class="flex">
+            <div class="border">
+              <section class="card text-overlay">
+        <section class="header">
+            <h2 class="brand"><u>Allen Solly</u></h2>
+            <h3 class="price"><u>₹1499</u></h3>
+        </section>
+
+        <img class="img" src="/assets/images/card.jpeg" alt=""><br>
+
+        <p class="text"><strong>ALLEN SOLLY</strong> Stripes Cotton Linen Blend Regular Fit Mens Casual Shirt - White</p><br>
+
+        <section class="card-footer">
+            <div class="btn">
+                <button class="btn primary">Buy</button>
+                <button class="btn secondary">Share</button>
+            </div>
+
+            <div class="icon">
+                <a class="icon favourite" href="#"><i class="fas fa-heart"></i></a>
+                <a class="icon cart" href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </section>
+    </section>
+            </div>
+          </section>
+          <br /><br />
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=49px&dsblur=62px&wc=true&wa=true&pv=25px&ph=38px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522card%2520text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522brand%2522%253E%253Cu%253EAllen%2520Solly%253C%252Fu%253E%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522price%2522%253E%253Cu%253E%25E2%2582%25B91499%253C%252Fu%253E%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522%252Fassets%252Fimages%252Fcard.jpeg%2522%2520alt%253D%2522%2522%253E%253Cbr%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2522%253E%253Cstrong%253EALLEN%2520SOLLY%253C%252Fstrong%253E%2520Stripes%2520Cotton%2520Linen%2520Blend%2520Regular%2520Fit%2520Mens%2520Casual%2520Shirt%2520-%2520White%253C%252Fp%253E%253Cbr%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary%2522%253EShare%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522icon%2520favourite%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522icon%2520cart%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%253C%252Fsection%253E"
+            style="
+              width: 880px;
+              height: 322px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <br /><br />
+
+        <!-- Text only card -->
+        <p class="font-1_5x">-Text only card</p>
+        <br /><br />
+        <section class="flex">
+          <div class="border">
+            <section class="card only-text">
+        <section class="header">
+            <h2 class="brand"><u>Allen Solly</u></h2><br>
+            <h3 class="price"><u>₹1499</u></h3><br>
+        </section>
+
+        <img class="img" src="/assets/images/card.jpeg" alt="">
+
+        <p class="text"><strong>ALLEN SOLLY</strong> Stripes Cotton Linen Blend Regular Fit Mens Casual Shirt - White</p><br>
+
+        <section class="card-footer">
+            <div class="btn">
+                <button class="btn primary">Buy</button>
+                <button class="btn secondary">Share</button>
+            </div>
+            <br>
+
+            <div class="icon">
+                <a class="icon favourite" href="#"><i class="fas fa-heart"></i></a>
+                <a class="icon cart" href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </section>
+    </section>
+          </div>
+        </section>
+        <br /><br />
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=49px&dsblur=62px&wc=true&wa=true&pv=25px&ph=38px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522card%2520only-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522brand%2522%253E%253Cu%253EAllen%2520Solly%253C%252Fu%253E%253C%252Fh2%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522price%2522%253E%253Cu%253E%25E2%2582%25B91499%253C%252Fu%253E%253C%252Fh3%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522%252Fassets%252Fimages%252Fcard.jpeg%2522%2520alt%253D%2522%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2522%253E%253Cstrong%253EALLEN%2520SOLLY%253C%252Fstrong%253E%2520Stripes%2520Cotton%2520Linen%2520Blend%2520Regular%2520Fit%2520Mens%2520Casual%2520Shirt%2520-%2520White%253C%252Fp%253E%253Cbr%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary%2522%253EShare%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbr%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522icon%2520favourite%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522icon%2520cart%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%253C%252Fsection%253E"
+          style="
+            width: 880px;
+            height: 322px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+        <br /><br />
+
+        <!-- Horizontal Card -->
+        <p class="font-1_5x">-Horizontal card</p>
+        <br /><br />
+        <section class="flex">
+          <div class="border">
+            <section class="card horizontal">
+
+        <div class="container1">
+            <section class="header">
+                <h2 class="brand"><u>Allen Solly</u></h2><br>
+                <h3 class="price"><u>₹1499</u></h3><br>
+            </section>
+    
+            <img class="img" src="/assets/images/card.jpeg" alt="">
+        </div><br>
+
+        <p class="text"><strong>ALLEN SOLLY</strong> Stripes Cotton Linen Blend Regular Fit Mens Casual Shirt - White</p>
+
+        <section class="card-footer">
+            <div class="btn">
+                <button class="btn primary">Buy</button>
+                <button class="btn secondary">Share</button>
+            </div><br>
+
+            <div class="icon">
+                <a class="icon favourite" href="#"><i class="fas fa-heart"></i></a>
+                <a class="icon cart" href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </section>
+    </section>
+          </div>
+        </section>
+        <br /><br />
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=49px&dsblur=62px&wc=true&wa=true&pv=25px&ph=38px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522card%2520horizontal%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522brand%2522%253E%253Cu%253EAllen%2520Solly%253C%252Fu%253E%253C%252Fh2%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522price%2522%253E%253Cu%253E%25E2%2582%25B91499%253C%252Fu%253E%253C%252Fh3%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522%252Fassets%252Fimages%252Fcard.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%253Cbr%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2522%253E%253Cstrong%253EALLEN%2520SOLLY%253C%252Fstrong%253E%2520Stripes%2520Cotton%2520Linen%2520Blend%2520Regular%2520Fit%2520Mens%2520Casual%2520Shirt%2520-%2520White%253C%252Fp%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary%2522%253EShare%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%253Cbr%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522icon%2520favourite%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522icon%2520cart%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%253C%252Fsection%253E"
+          style="
+            width: 880px;
+            height: 322px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+        <br /><br />
+
+        <!-- Card with Shadow -->
+        <p class="font-1_5x">-Card with shadow</p>
+        <br /><br />
+        <section class="flex">
+          <div class="border">
+            <section class="card shadow">
+        <section class="header">
+            <h2 class="brand"><u>Allen Solly</u></h2><br>
+            <h3 class="price"><u>₹1499</u></h3><br>
+        </section>
+
+        <img class="img" src="/assets/images/card.jpeg" alt="">
+        <hr><br>
+        <p class="text"><strong>ALLEN SOLLY</strong> Stripes Cotton Linen Blend Regular Fit Mens Casual Shirt - White</p><br>
+
+        <section class="card-footer">
+            <div class="btn">
+                <button class="btn primary">Buy</button>
+                <button class="btn secondary">Share</button>
+            </div>
+            <br>
+
+            <div class="icon">
+                <a class="icon favourite" href="#"><i class="fas fa-heart"></i></a>
+                <a class="icon cart" href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </section>
+    </section>
+          </div>
+        </section>
+        <br /><br />
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=49px&dsblur=62px&wc=true&wa=true&pv=25px&ph=38px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522card%2520shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522brand%2522%253E%253Cu%253EAllen%2520Solly%253C%252Fu%253E%253C%252Fh2%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522price%2522%253E%253Cu%253E%25E2%2582%25B91499%253C%252Fu%253E%253C%252Fh3%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522%252Fassets%252Fimages%252Fcard.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2522%253E%253Cstrong%253EALLEN%2520SOLLY%253C%252Fstrong%253E%2520Stripes%2520Cotton%2520Linen%2520Blend%2520Regular%2520Fit%2520Mens%2520Casual%2520Shirt%2520-%2520White%253C%252Fp%253E%253Cbr%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary%2522%253EShare%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbr%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522icon%2520favourite%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522icon%2520cart%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%253C%252Fsection%253E"
           style="
             width: 880px;
             height: 322px;
@@ -1124,5 +1419,27 @@
         <hr />
       </main>
     </section>
+
+    <footer class="main-footer">
+        <h2 class="footer-header">CONTACT US</h2>
+
+        <div class="footer-link">
+          <a
+            class="link"
+            href="https://github.com/Arpit-dotcom/"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a class="link" href="https://twitter.com/Arpit_00_02" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/arpit-kumar-4b11211a4/"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+      </footer>
   </body>
 </html>

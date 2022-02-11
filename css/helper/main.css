@@ -113,7 +113,7 @@
 
 /* Footer */
 
-.footer{
+.main-footer{
     width: 100%;
     padding: 2rem;
     background-color: var(--badge-online-hover);

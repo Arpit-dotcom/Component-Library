@@ -1,161 +1,160 @@
 @import "../style.css";
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
+.container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.card{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width: 200px;
-    height: 250px;
-    border: 1px solid var(--badge-offline);
-    background-color: var(--badge-offline);
-    border-radius: 1rem;
-    margin: .5rem;
+.card {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 250px;
+  border: 1px solid var(--badge-offline);
+  background-color: var(--badge-offline);
+  border-radius: 1rem;
+  margin: 0.5rem;
 }
 
-.header{
-    padding: 0 5px;
-    color: var(--default);
-    font-weight: bolder;
+.header {
+  text-align: left;
+  padding: 0 5px;
+  color: var(--default);
+  font-weight: bolder;
 }
 
-.img{
-    width: 100%;
-    height: 6rem;
+.img {
+  width: 100%;
+  height: 6rem;
 }
 
-.text{
-    padding: 0 10px;
+.text {
+  padding: 0 10px;
 }
 
-.footer{
-    display: flex;
-    justify-content: space-around;
+.card-footer {
+  display: flex;
+  justify-content: space-around;
 }
 
-.footer .btn{
-    background-color: var(--badge-offline);
-    border: none;
+.card-footer .btn {
+  background-color: var(--badge-offline);
+  border: none;
 }
 
-.btn .primary, .btn .secondary{
-    text-decoration: none;
-    color: var(--default);
+.btn .primary,
+.btn .secondary {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: var(--default);
 }
 
-.btn .primary:hover, .btn .secondary:hover{
-    color: var(--alert-warning);
+.btn .primary:hover,
+.btn .secondary:hover {
+  color: var(--alert-warning);
 }
 
-.icon{
-    align-self: flex-end;
-    font-size: 1rem;
-    margin: 0 5px;
-    color: var(--default);
+.icon {
+  align-self: center;
+  font-size: 1rem;
+  margin: 0 5px;
+  color: var(--default);
 }
 
-.icon .fa-heart:hover{
-    color: var(--badge-dnd);
+.icon .fa-heart:hover {
+  color: var(--badge-dnd);
 }
 
-.icon .fa-shopping-cart:hover{
-    color: var(--badge-online);
+.icon .fa-shopping-cart:hover {
+  color: var(--badge-online);
 }
 
 /* Card with badge */
 
-.badge-card .badge{
-    color: var(--default);
-    position: absolute;
-    font-size: 1rem;
-    top: 9px;
-    right: 9px;
+.badge-card .badge {
+  color: var(--default);
+  position: absolute;
+  font-size: 1rem;
+  top: 9px;
+  right: 9px;
 }
 
 /* Card with dismiss */
 
-.dismiss .badge{
-    display: none;
+.dismiss .badge {
+  display: none;
 }
 
 /* Card with text overlay */
 
-.text-overlay .badge{
-    display: none;
+.text-overlay .badge {
+  display: none;
 }
 
-.text-overlay .header .brand{
-    position: absolute;
-    top: 6rem;
-    color: var(--white-section);
+.text-overlay .header .brand {
+  position: absolute;
+  top: 6rem;
+  color: var(--white-section);
 }
 
-.text-overlay .header .price{
-    position: absolute;
-    top: 7.5rem;
-    color: var(--white-section);
+.text-overlay .header .price {
+  position: absolute;
+  top: 7.5rem;
+  color: var(--white-section);
 }
 
-.text-overlay .img{
-    height: 60%;
-    margin-bottom: 5px;
-    border-radius: 1rem 1rem 0 0;
+.text-overlay .img {
+  height: 60%;
+  margin-bottom: 5px;
 }
 
 /* Text only card */
 
-.only-text{
-    height: 160px;
+.only-text .header {
+  text-align: center;
 }
 
-.only-text .header{
-    text-align: center;
-}
-
-.only-text .img{
-    display: none;
+.only-text .img {
+  display: none;
 }
 
 /* Horizontal Card */
 
-.horizontal{
-    height: 160px;
+.horizontal {
+  width: 270px;
 }
 
-.horizontal .container1{
-    height: 40%;
-    display: flex;
+.horizontal .container1 {
+  height: 50%;
+  display: flex;
 }
 
-.horizontal .header{
-    order: 2;
+.horizontal .header {
+  order: 2;
 }
 
-.horizontal-header .price{
-    width: 50%;
+.horizontal-header .price {
+  width: 40%;
 }
 
-.horizontal .img{
-    width: 50%;
-    height: 100%;
-    border-radius: 1rem 0 0 0;
-    order: 1;
+.horizontal .img {
+  width: 60%;
+  height: 100%;
+  order: 1;
 }
 
-.horizontal .text{
-    order: 3;
+.horizontal .text {
+  order: 3;
+  margin: 0.5rem 0;
 }
 
-.horizontal .footer{
-    order: 4;
+.horizontal .card-footer {
+  order: 4;
 }
 
 /* Card with shadow */
 
-.shadow{
-    box-shadow: 15px 15px 10px;
+.shadow {
+  box-shadow: 15px 15px 10px;
 }
