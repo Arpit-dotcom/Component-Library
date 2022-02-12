@@ -1,19 +1,4 @@
-@import "/css/helper/main.css";
-@import "/css/style.css";
-@import "/css/components/Avatar.css";
-@import "/css/components/Alert.css";
-@import "/css/components/Badge.css";
-@import "/css/components/Button.css";
-@import "/css/components/Card.css";
-@import "/css/components/Image.css";
-@import "/css/components/Input.css";
-@import "/css/components/Text-utility.css";
-@import "/css/components/list.css";
-@import "/css/components/Navigation.css";
-@import "/css/components/Modal.css";
-@import "/css/components/Rating.css";
-@import "/css/components/Toast.css";
-@import "/css/components/Grid.css";
+@import "/css/web-beauty.css";
 
 /* Header */
 .navigation .primary {
