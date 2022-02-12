@@ -5,6 +5,9 @@
 }
 
 /* Nav bar */
+.docs-header{
+    width: 100%;
+}
 .navigation{
     width: 100%;
     padding: 1rem;
@@ -145,6 +148,7 @@
     }
 
     .sub-container{
+        margin-top: 2rem;
         width: 100%;
     }
 }

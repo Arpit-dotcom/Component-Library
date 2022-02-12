@@ -147,6 +147,10 @@
   border: none;
 }
 
+.toast .main-content{
+  width: 100%;
+}
+
 .center-items {
   display: flex;
   flex-direction: column;
@@ -161,4 +165,28 @@
 /* Footer */
 .footer {
   display: block;
+}
+
+@media  screen and (max-width:480px) {
+  .drawer{
+    display: none;
+  }
+  
+  iframe{
+    display: none;
+  }
+
+  .main-content{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:480px) and (max-width: 786px) {
+  .drawer{
+    display: none;
+  }
+
+  .main-content{
+    width: 100%;
+  }
 }
