@@ -15,8 +15,8 @@
     height: 15px;
     border-radius: var(--round-border-radius);
     position: absolute;
-    bottom: 8px;
-    right: 8px;
+    bottom: 5px;
+    right: 5px;
     border: 2px solid var(--white-section);
 }
 
