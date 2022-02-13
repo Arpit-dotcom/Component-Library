@@ -68,17 +68,22 @@
 }
 
 .card{
+  font-size: .7rem;
   margin: auto;
+}
+
+.card .btn{
+  padding: 0;
 }
 
 .text-overlay .header .brand {
   position: absolute;
-  top: 8rem;
+  top: 6rem;
 }
 
 .text-overlay .header .price {
   position: absolute;
-  top: 9.5rem;
+  top: 7.5rem;
 }
 
 .normal-list .list-item,
