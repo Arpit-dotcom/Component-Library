@@ -7,26 +7,26 @@
     font-size: 1rem;
 }
 
-.title{
+.modal .title{
     padding: .5rem;
     justify-content: space-between;
 }
 
-.title .fa-times{
+.modal .title .fa-times{
     font-size: 2rem;
 }
 
-.content{
+.modal .content{
     padding: 1rem;
 }
 
-.btn{
+.modal .btn{
     justify-content: flex-end;
     gap: .5rem;
     padding: .5rem;
 }
 
-.primary{
+.modal .btn .primary{
     padding: .5rem;
     color: var(--white-section);
     background-color: var(--alert-warning);
@@ -34,7 +34,7 @@
     border-radius: 5px;
 }
 
-.secondary{
+.modal .btn .secondary{
     padding: .5rem;
     color: var(--white-section);
     background-color: var(--active);

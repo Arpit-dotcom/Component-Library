@@ -8,19 +8,34 @@
     <link rel="stylesheet" href="../components/Input.css">
 </head>
 <body>
-    <form class="container">
+    <form class="input-container">
+        <!-- Input -->
         <div class="name">
             <label class="label" for="username">Username</label>
-            <input class="input" type="text" name="username" required>
+            <input class="input" type="text" name="username" placeholder="Username">
         </div>
 
         <div class="password">
             <label class="label" for="password">Password</label>
-            <input class="input" type="password" name="password" required>
+            <input class="input" type="password" name="password" placeholder="Password">
         </div>
 
         <div class="submit">
             <input class="input" type="submit" name="submit">
+        </div>
+        <!-- Disabled Input -->
+        <div class="name">
+            <label class="label" for="username">Username</label>
+            <input class="input" type="text" disabled required name="username" placeholder="Username">
+        </div>
+
+        <div class="password">
+            <label class="label" for="password">Password</label>
+            <input class="input" type="password" disabled required name="password" placeholder="Password">
+        </div>
+
+        <div class="submit">
+            <input class="input" type="submit" disabled required name="submit">
         </div>
     </form>
 </body>

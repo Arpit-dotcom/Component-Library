@@ -19,7 +19,7 @@
     --default:black;
 
     --badge-online-hover: #4d7c0f;
-    --white-section-hovr: #94a3b8;
+    --white-section-hover: #f8fafc;
 
     --rating: yellow;
 }
@@ -34,4 +34,16 @@ body{
 
 .grid{
     display: grid;
+}
+
+.font-1x{
+    font-size: 1rem;
+}
+
+.font-1_5x{
+    font-size: 1.5rem;
+}
+
+.font-2x{
+    font-size: 2rem;
 }

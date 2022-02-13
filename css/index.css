@@ -1,10 +1,14 @@
 @import "../style.css";
+@import "/css/web-beauty.css";
 
 .area{
     font-size: 1rem;
 }
 
 /* Nav bar */
+.docs-header{
+    width: 100%;
+}
 .navigation{
     width: 100%;
     padding: 1rem;
@@ -113,9 +117,9 @@
 
 /* Footer */
 
-.footer{
+.main-footer{
     width: 100%;
-    padding: 2rem;
+    padding: .5rem;
     background-color: var(--badge-online-hover);
 }
 
@@ -127,8 +131,8 @@
 
 .footer-link{
     text-align: center;
-    font-size: 2rem;
-    margin-top: 2rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 .footer-link .link{
@@ -145,6 +149,7 @@
     }
 
     .sub-container{
+        margin-top: 2rem;
         width: 100%;
     }
 }
