@@ -36,3 +36,20 @@
     border-radius: var(--retina-border-radius);
     color: var(--white-section);
 }
+
+.validation{
+    text-align: center;
+}
+
+.validation-input{
+    background-color: var(--active);
+    color: var(--white-section);
+    padding: .5rem;
+    font-size: .8rem;
+}
+
+.success-input{
+    color: var(--active);
+    margin-top: 1rem;
+    text-align: center;
+}

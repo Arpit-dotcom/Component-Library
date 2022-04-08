@@ -1,42 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Input</title>
-    <link rel="stylesheet" href="../components/Input.css">
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/dcbd873a92.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../components/Input.css" />
+  </head>
+  <body>
     <form class="input-container">
-        <!-- Input -->
-        <div class="name">
-            <label class="label" for="username">Username</label>
-            <input class="input" type="text" name="username" placeholder="Username">
-        </div>
+      <!-- Input -->
+      <div class="name">
+        <label class="label" for="username">Username</label>
+        <input
+          class="input"
+          type="text"
+          name="username"
+          placeholder="Username"
+        />
+      </div>
 
-        <div class="password">
-            <label class="label" for="password">Password</label>
-            <input class="input" type="password" name="password" placeholder="Password">
-        </div>
+      <div class="password">
+        <label class="label" for="password">Password</label>
+        <input
+          class="input"
+          type="password"
+          name="password"
+          placeholder="Password"
+        />
+      </div>
 
-        <div class="submit">
-            <input class="input" type="submit" name="submit">
-        </div>
-        <!-- Disabled Input -->
-        <div class="name">
-            <label class="label" for="username">Username</label>
-            <input class="input" type="text" disabled required name="username" placeholder="Username">
-        </div>
+      <div class="submit">
+        <input class="input" type="submit" name="submit" />
+      </div>
+      <!-- Disabled Input -->
+      <div class="name">
+        <label class="label" for="username">Username</label>
+        <input
+          class="input"
+          type="text"
+          disabled
+          required
+          name="username"
+          placeholder="Username"
+        />
+      </div>
 
-        <div class="password">
-            <label class="label" for="password">Password</label>
-            <input class="input" type="password" disabled required name="password" placeholder="Password">
-        </div>
+      <div class="password">
+        <label class="label" for="password">Password</label>
+        <input
+          class="input"
+          type="password"
+          disabled
+          required
+          name="password"
+          placeholder="Password"
+        />
+      </div>
 
-        <div class="submit">
-            <input class="input" type="submit" disabled required name="submit">
-        </div>
+      <div class="submit">
+        <input class="input" type="submit" disabled required name="submit" />
+      </div>
+      <!-- Example of Validation and success -->
+      <div class="validation">
+        <label class="validation-input">There is an error here</label>
+        <div class="success-input"><i class="fas fa-check"></i></div>
+      </div>
     </form>
-</body>
+  </body>
 </html>
