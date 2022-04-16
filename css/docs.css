@@ -1,6 +1,10 @@
 @import "/css/web-beauty.css";
 
 /* Header */
+.nav-header {
+  font-size: 1.5rem;
+}
+
 .navigation .primary {
   font-weight: normal;
 }
@@ -67,12 +71,12 @@
   width: 70rem;
 }
 
-.card{
-  font-size: .7rem;
+.card {
+  font-size: 0.7rem;
   margin: auto;
 }
 
-.card .btn{
+.card .btn {
   padding: 0;
 }
 
@@ -136,7 +140,7 @@
   border: none;
 }
 
-.toast .main-content{
+.toast .main-content {
   width: 100%;
 }
 
@@ -156,26 +160,26 @@
   display: block;
 }
 
-@media  screen and (max-width:480px) {
-  .drawer{
-    display: none;
-  }
-  
-  iframe{
+@media screen and (max-width: 480px) {
+  .drawer {
     display: none;
   }
 
-  .main-content{
+  iframe {
+    display: none;
+  }
+
+  .main-content {
     width: 100%;
   }
 }
 
-@media screen and (min-width:480px) and (max-width: 786px) {
-  .drawer{
+@media screen and (min-width: 480px) and (max-width: 786px) {
+  .drawer {
     display: none;
   }
 
-  .main-content{
+  .main-content {
     width: 100%;
   }
 }

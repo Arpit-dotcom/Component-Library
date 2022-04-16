@@ -10,20 +10,25 @@
 }
 .navigation{
     width: 100%;
-    padding: 1rem;
+    padding: 1.5rem;
     display: flex;
+    background-color: var(--badge-online-hover);
     justify-content: space-between;
     box-shadow: 5px 5px 5px var(--badge-offline);
 }
 
-.nav-img{
+/* .nav-img{
     display: inline-block;
     width: 12rem;
+} */
+
+.nav-header{
+    color: var(--white-section);
 }
 
 .nav-list{
-    padding-top: 1rem;
-    width: 12rem;
+    margin-top: .2rem;
+    width: 10rem;
     display: inline-block;
     list-style: none;
     font-size: 1rem;
@@ -33,7 +38,7 @@
     text-decoration: none;
     display: inline;
     margin: 0 1rem;
-    color: var(--badge-online);
+    color: var(--white-section);
 }
 
 .primary{
@@ -88,13 +93,13 @@
 .link-btn .link{
     text-decoration: none;
     padding: 1rem;
-    border: 1px solid var(--badge-online);
+    border: 1px solid var(--badge-online-hover);
     border-radius: var(--retina-border-radius);
 }
 
 .link-btn .link-primary{
     margin-top: 2rem;
-    background-color: var(--badge-online);
+    background-color: var(--badge-online-hover);
     text-decoration: none;
     font-size: 1rem;
     font-weight: bolder;
@@ -103,7 +108,7 @@
 }
 
 .link-btn .link-primary:hover{
-    background-color: var(--badge-online-hover);
+    background-color: var(--badge-online);
 }
 
 .link-btn .link-secondary{
