@@ -1,6 +1,12 @@
 @import "/css/web-beauty.css";
 
 /* Navigation */
+.navigation{
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: var(--badge-online-hover);
+}
 .navigation .primary {
   font-weight: normal;
 }
@@ -25,11 +31,15 @@
 
 /* Sidebar */
 .drawer {
+  position: sticky;
+  top: 6rem;
+  height: 80vh;
+  overflow-x: hidden;
+  overflow-y: auto;
   flex-direction: column;
   padding: 0.5rem;
   text-align: center;
   width: 20%;
-  box-shadow: 5px 5px 5px var(--badge-offline);
 }
 
 .drawer .list {
@@ -42,7 +52,6 @@
 
 .list-item:hover{
   text-decoration: underline;
-  background-color: var(--white-section-hover);
 }
 
 .list-item .link {
@@ -54,7 +63,7 @@
 .main-content {
   font-size: 1rem;
   width: 80%;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .order-list {
@@ -213,5 +222,8 @@ h1{
   }
   .heading, .item0{
     display: none;
+  }
+  .main-content{
+    padding: 0;
   }
 }
