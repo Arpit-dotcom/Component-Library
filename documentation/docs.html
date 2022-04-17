@@ -10,26 +10,34 @@
     <link rel="stylesheet" href="/css/font-awesome/css/all.css" />
   </head>
   <body>
-    <header class="docs-header">
       <nav class="navigation">
         <h1 class="nav-header">Web Beauty</h1>
 
         <ul class="nav-list">
-          <a class="list-item primary" href="/index.html">Home</a>
-          <a class="list-item secondary" href="">Docs</a>
+          <a class="list-item primary" href="">Home</a>
+          <a class="list-item secondary" href="/documentation/docs.html"
+            >Docs</a
+          >
         </ul>
+
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
       </nav>
+      
+    <header class="docs-header">
+      <i class="fas fa-angle-down"></i>
     </header>
 
     <section class="container flex">
       <aside class="drawer flex">
-        <h2 class="heading font-1_5x"><u>Get Started</u></h2>
+        <h2 class="heading font-1_5x">Get Started</h2>
         <div class="list font-1x flex">
            <div class="list-item item1">
             <a class="link" href="#introduction">Introduction</a>
           </div>
         </div>
-        <h2 class="heading font-1_5x"><u>Component</u></h2>
+        <h2 class="heading font-1_5x">Component</h2>
         <div class="list font-1x flex">
           <div class="list-item item1">
             <a class="link" href="#avatar">Avatar</a>
@@ -1178,10 +1186,10 @@
           <section class="flex">
             <div class="border">
               <ul class="normal-list">
-                <li class="list-item">List Item 1</li>
-                <li class="list-item">List Item 2</li>
-                <li class="list-item">List Item 3</li>
-                <li class="list-item">List Item 4</li>
+                <li class="normal-list-item">List Item 1</li>
+                <li class="normal-list-item">List Item 2</li>
+                <li class="normal-list-item">List Item 3</li>
+                <li class="normal-list-item">List Item 4</li>
               </ul>
             </div>
           </section>
@@ -1264,11 +1272,11 @@
               <div class="border">
               <nav class="simple-navigation">
               <h1>Brand Name</h1>
-              <div class="nav-list">
-                <a class="list-item" href="#">Home</a>
-                <a class="list-item" href="#">Docs</a>
-                <a class="list-item" href="#">Example</a>
-                <a class="list-item" href="#">Release</a>
+              <div class="navigation-list">
+                <a class="navigation-list-item" href="#">Home</a>
+                <a class="navigation-list-item" href="#">Docs</a>
+                <a class="navigation-list-item" href="#">Example</a>
+                <a class="navigation-list-item" href="#">Release</a>
               </div>
               </nav>
               </div>
@@ -1517,5 +1525,6 @@
           ></a>
         </div>
       </footer>
+      <script type="text/javascript" src="../script.js"></script>
   </body>
 </html>

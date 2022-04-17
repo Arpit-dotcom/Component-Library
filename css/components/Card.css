@@ -125,10 +125,6 @@
 }
 
 /* Text only card */
-.only-text{
-  height: 11rem;
-}
-
 .only-text .header {
   text-align: center;
 }

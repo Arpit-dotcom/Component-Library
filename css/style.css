@@ -24,10 +24,6 @@
     --rating: yellow;
 }
 
-body{
-    font-size: 62.5%;
-}
-
 .flex{
     display: flex;
 }

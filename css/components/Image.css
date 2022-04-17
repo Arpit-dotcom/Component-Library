@@ -12,7 +12,6 @@
 .img-size{
     width: 13rem;
     height: 13rem;
-    margin: 2rem;
 }
 
 .img-size-retina{
@@ -20,19 +19,3 @@
     height: 18rem;
     object-fit: cover;
 } 
-
-/* @media screen and (max-width: 480px){
-    .img-size{
-        width: 7rem;
-        height: 7rem;
-        margin: 1rem;
-    }    
-}
-
-@media screen and (min-width: 480px) and (max-width: 768px){
-    .img-size{
-        width: 10rem;
-        height: 10rem;
-        margin: 1.5rem;
-    }    
-} */
