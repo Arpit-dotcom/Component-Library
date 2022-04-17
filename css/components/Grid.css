@@ -8,15 +8,15 @@
 .grid{
     font-size: 1rem;
     width: max-content;
-    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
 }
 
 .grid-2{
-    grid-template-columns: repeat(2,10rem);
+    grid-template-rows: repeat(2, 2rem);
 }
 
 .grid-3{
-    grid-template-columns: repeat(3,10rem);
+    grid-template-rows: repeat(3,2rem);
 }
 
 .grid-item{

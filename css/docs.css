@@ -9,6 +9,11 @@
   font-weight: bolder;
 }
 
+/* Header */
+.docs-header{
+  display: none;
+}
+
 /* Container */
 .container {
   flex-direction: row;
@@ -178,15 +183,35 @@ h1{
 
 /* Mobile and tab responsive */
 @media screen and (max-width: 786px) {
-  .drawer {
-    display: none;
+  .hamburger{
+    padding-top: .8rem;
   }
   .main-content {
     width: 100%;
   }
   .docs-header{
     display: block;
+    cursor: pointer;
     padding-left: 5px;
     background-color: var(--white-section-hover);
+  }
+  .drawer{
+    position: absolute;
+    left: -100%;
+    width: 100%;
+    background-color: var(--white-section);
+    z-index: 50000;
+  }
+  .list .list-item{
+    margin: auto;
+  }
+  .list-item:hover{
+    background-color: var(--white-section-hover);
+  }
+  .drawer.active{
+    left: 0;
+  }
+  .heading, .item0{
+    display: none;
   }
 }

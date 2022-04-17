@@ -10,8 +10,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 12rem;
-
+  max-width: 12rem;
   border: 1px solid var(--badge-offline);
   background-color: var(--badge-offline);
   border-radius: 1rem;
@@ -136,7 +135,7 @@
 /* Horizontal Card */
 
 .horizontal {
-  width: 15rem;
+  min-width: 15rem;
   height: 12rem;
 }
 
@@ -155,7 +154,8 @@
 }
 
 .horizontal .img {
-  width: 60%;
+  width: 100%;
+  object-fit: cover;
   height: 100%;
   order: 1;
 }

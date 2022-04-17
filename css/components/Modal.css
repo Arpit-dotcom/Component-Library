@@ -2,7 +2,7 @@
 
 .modal{
     background-color: var(--badge-offline);
-    width: 20rem;
+    max-width: 20rem;
     margin: 1rem;
     font-size: 1rem;
 }
