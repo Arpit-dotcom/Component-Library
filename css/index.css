@@ -54,11 +54,6 @@ h1{
     color: var(--white-section);
 }
 
-/* Header */
-.header{
-    display: none;
-}
-
 /* Container */
 
 .container{

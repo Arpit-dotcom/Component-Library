@@ -135,12 +135,12 @@
 /* Horizontal Card */
 
 .horizontal {
-  min-width: 15rem;
+  min-width: 18rem;
   height: 12rem;
 }
 
 .horizontal .container1 {
-  height: 50%;
+  height: 100%;
   display: flex;
 }
 
@@ -154,7 +154,7 @@
 }
 
 .horizontal .img {
-  width: 100%;
+  width: 50%;
   object-fit: cover;
   height: 100%;
   order: 1;
