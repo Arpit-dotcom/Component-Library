@@ -3,6 +3,7 @@
 /* Normal list */
 .normal-list {
   font-size: 1rem;
+  list-style: none;
 }
 
 /* Stacked list */
