@@ -6,6 +6,7 @@ Web Beauty is an easy to use, customizable CSS Framework, helping people to crea
 ## Technologies Used - 
 - HTML
 - CSS
+- Javascript
 
 ## Components Defined in Sparrow - 
 - Avatar
