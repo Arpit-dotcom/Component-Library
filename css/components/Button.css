@@ -1,51 +1,52 @@
 @import "../style.css";
 
-.btn{
-    border: 1px solid;
-    margin: .5rem;
-    padding: .5rem;
+.btn {
+  border: 1px solid;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
 }
 
-.btn-primary{
-    background-color: var(--badge-online);
-    color: var(--white-section);
+.btn-primary {
+  background-color: var(--badge-online);
+  color: var(--white-section);
 }
 
-.btn-secondary{
-    background-color: var(--badge-offline);
-    color: var(--white-section);
-    color: var(--default);
-    border: none;
+.btn-secondary {
+  background-color: var(--badge-offline);
+  color: var(--white-section);
+  color: var(--default);
+  border: none;
 }
 
-.btn-success{
-    background-color: var(--alert-warning);
-    color: var(--white-section);
+.btn-success {
+  background-color: var(--alert-warning);
+  color: var(--white-section);
 }
 
-.btn-danger{
-    background-color: var(--badge-dnd);
-    color: var(--white-section);
+.btn-danger {
+  background-color: var(--badge-dnd);
+  color: var(--white-section);
 }
 
-.btn-link{
-    background-color: var(--active);
-    padding: .5rem 1rem;
-    cursor: pointer;
+.btn-link {
+  background-color: var(--active);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
 }
 
-.btn-link a{
-    color: var(--white-section);
-    text-decoration: none;
+.btn-link a {
+  color: var(--white-section);
+  text-decoration: none;
 }
 
-.btn-img{
-    background-color: var(--active);
-    color: var(--white-section);
+.btn-img {
+  background-color: var(--active);
+  color: var(--white-section);
 }
 
-.btn-float{
-    background-color: var(--active);
-    color: var(--white-section);
-    border-radius: var(--round-border-radius);
+.btn-float {
+  background-color: var(--active);
+  color: var(--white-section);
+  border-radius: var(--round-border-radius);
 }
