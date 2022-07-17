@@ -7,6 +7,10 @@
   cursor: pointer;
 }
 
+.btn:hover {
+  opacity: 0.5;
+}
+
 .btn-primary {
   background-color: var(--badge-online);
   color: var(--white-section);

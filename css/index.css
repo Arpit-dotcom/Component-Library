@@ -41,6 +41,11 @@ h1{
 
 .primary{
     font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.secondary{
+    font-size: 1.2rem;
 }
 
 .hamburger{
